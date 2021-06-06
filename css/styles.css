@@ -1,0 +1,142 @@
+body {
+  background: black;
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+nav {
+  min-height: 90px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.logo {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 8rem;
+}
+.nav-link {
+  text-transform: uppercase;
+  color: white !important;
+  font-family: "Open Sans";
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  font-size: 12px;
+  margin-right: 2rem;
+}
+header {
+  display: flex;
+}
+#main-tg {
+  background-image: url("/assets/main-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 960px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  padding: 2rem 1rem;
+  display: flex;
+}
+.main-text {
+}
+.main-text h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: 12rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: white;
+}
+.main-text p {
+  font-size: 24px;
+  margin: 4rem;
+  letter-spacing: 0.3rem;
+}
+.move-down {
+  align-items: flex-end;
+}
+.move-down p {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: -0.4rem;
+  font-size: 10px;
+}
+.btn {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 15px 90px;
+  background: linear-gradient(#ffb548, #f3af34);
+  margin-top: 4rem;
+}
+
+#about-tg {
+  background-image: url("/assets/the-games-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 960px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  padding: 2rem 1rem;
+  display: flex;
+}
+.gallery-carousel {
+  margin-top: 15rem;
+}
+#about-tg p {
+  margin-top: 11rem;
+  font-family: Arial;
+  font-size: 24px;
+}
+#about-tg h4 {
+  font-family: Arial;
+  font-size: 56px;
+  font-weight: bold;
+}
+#features-tg {
+  background-image: url("/assets/features.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 960px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  padding: 2rem 1rem;
+  display: flex;
+}
+#requirements-tg {
+  background-image: url("/assets/requirements.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 960px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  padding: 2rem 1rem;
+  display: flex;
+}
+#topscores-tg {
+  background-color: black;
+  background-image: url("assets/top-score-bg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 960px;
+  color: white;
+  font-family: Arial;
+  padding: 2rem 1rem;
+  display: block;
+}
