@@ -33,7 +33,7 @@ header {
 }
 /* Main Section */
 #main-tg {
-  background-image: url("/assets/main-bg.jpg");
+  background-image: url("../assets/main-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -78,7 +78,7 @@ header {
 }
 /* About & Gallery Section */
 #about-tg {
-  background-image: url("/assets/the-games-bg.jpg");
+  background-image: url("../assets/the-games-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -104,7 +104,7 @@ header {
 }
 /* Features Section */
 #features-tg {
-  background-image: url("/assets/features.jpg");
+  background-image: url("../assets/features.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -148,7 +148,7 @@ header {
 }
 /* Requirements Section */
 #requirements-tg {
-  background-image: url("/assets/requirements.png");
+  background-image: url("../assets/requirements.png");
   background-color: radial-gradient(circle, white, white);
   background-size: cover;
   background-repeat: no-repeat;
